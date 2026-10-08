@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sahabat UMKM - Manajemen Persediaan</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- SIDEBAR -->
+    <aside id="sidebar">
+
+        <div class="brand">
+            <div class="brand-logo">S</div>
+
+            <div>
+                <h1>Sahabat UMKM</h1>
+                <p>Manajemen Persediaan</p>
+            </div>
+        </div>
+
+        <nav class="navigation">
+
+            <a href="#" class="nav-item active">
+                <span>▦</span>
+                Deranda
+            </a>
+
+            <a href="#" class="nav-item">
+                <span>□</span>
+                Data Barang
+            </a>
+
+            <a href="#" class="nav-item">
+                <span>↕</span>
+                Transaksi
+            </a>
+
+            <a href="#" class="nav-item">
+                <span>⌁</span>
+                Prediksi & Restock
+            </a>
+
+            <a href="#" class="nav-item">
+                <span>♧</span>
+                Supplier
+            </a>
+
+            <a href="#" class="nav-item">
+                <span>◷</span>
+                Laporan
+            </a>
+
+        </nav>
+
+        <div class="sidebar-bottom">
+
+            <div class="help-box">
+                <strong>Butuh bantuan?</strong>
+                <span>
+                    Kelola stok lebih mudah dengan Sahabat UMKM.
+                </span>
+            </div>
+
+            <a href="#" class="nav-item logout">
+                <span>↪</span>
+                Keluar
+            </a>
+
+        </div>
+
+    </aside>
+
+
+    <!-- KONTEN UTAMA -->
+    <main>
+
+        <!-- HEADER -->
+        <header class="topbar">
+
+            <div>
+                <p class="eyebrow">
+                    Toko aybeadsss_
+                </p>
+
+                <h2>
+                    Halo, Pemilik Usaha! 👋
+                </h2>
+
+                <p class="subtitle">
+                    Pantau persediaan dan kebutuhan restock hari ini.
+                </p>
+            </div>
+
+
+            <div class="profile">
+
+                <button class="notification">
+                    ♧
+                    <b>3</b>
+                </button>
+
+                <div class="avatar">
+                    PU
+                </div>
+
+                <div class="profile-text">
+                    <strong>Pemilik Usaha</strong>
+                    <span>Toko aybeadsss_</span>
+                </div>
+
+            </div>
+
+        </header>
+
+
+        <!-- RINGKASAN DATA -->
+        <section class="summary-grid">
+
+            <article class="summary-card">
+
+                <div class="card-icon blue">
+                    ▦
+                </div>
+
+                <div>
+                    <span>Total Barang</span>
+                    <strong>25</strong>
+                    <small>+4 barang bulan ini</small>
+                </div>
+
+            </article>
+
+
+            <article class="summary-card">
+
+                <div class="card-icon orange">
+                    !
+                </div>
+
+                <div>
+                    <span>Stok Menipis</span>
+                    <strong>3</strong>
+                    <small>Perlu diperhatikan</small>
+                </div>
+
+            </article>
+
+
+            <article class="summary-card">
+
+                <div class="card-icon purple">
+                    ⌁
+                </div>
+
+                <div>
+                    <span>Prediksi Kebutuhan</span>
+                    <strong>
+                        120 <em>unit</em>
+                    </strong>
+                    <small>Periode berikutnya</small>
+                </div>
+
+            </article>
+
+
+            <article class="summary-card">
+
+                <div class="card-icon green">
+                    ✓
+                </div>
+
+                <div>
+                    <span>Supplier Terhubung</span>
+                    <strong>5</strong>
+                    <small>Semua aktif</small>
+                </div>
+
+            </article>
+
+        </section>
+
+
+        <!-- BAGIAN GRAFIK DAN NOTIFIKASI -->
+        <section class="dashboard-grid">
+
+            <!-- GRAFIK -->
+            <article class="panel chart-panel">
+
+                <div class="panel-heading">
+
+                    <div>
+                        <span class="section-label">
+                            Aktivitas Persediaan
+                        </span>
+
+                        <h3>
+                            Barang Keluar – 7 Hari Terakhir
+                        </h3>
+                    </div>
+
+                    <select>
+                        <option>7 Hari</option>
+                        <option>30 Hari</option>
+                    </select>
+
+                </div>
+
+
+                <div class="legend">
+
+                    <span>
+                        <i class="dot blue-dot"></i>
+                        Beras 5 kg
+                    </span>
+
+                    <span>
+                        <i class="dot orange-dot"></i>
+                        Minyak 1 L
+                    </span>
+
+                    <span>
+                        <i class="dot green-dot"></i>
+                        Gula 1 kg
+                    </span>
+
+                </div>
+
+
+                <div class="chart">
+
+                    <div class="y-labels">
+                        <span>140</span>
+                        <span>105</span>
+                        <span>70</span>
+                        <span>35</span>
+                        <span>0</span>
+                    </div>
+
+
+                    <div class="chart-area">
+
+                        <div class="grid-line"></div>
+                        <div class="grid-line"></div>
+                        <div class="grid-line"></div>
+                        <div class="grid-line"></div>
+                        <div class="grid-line"></div>
+
+
+                        <div class="bars">
+
+                            <!-- SENIN -->
+                            <div class="bar-group">
+
+                                <span
+                                    class="bar blue-bar"
+                                    style="height:72%;">
+                                </span>
+
+                                <span
+                                    class="bar orange-bar"
+                                    style="height:57%;">
+                                </span>
+
+                                <span
+                                    class="bar green-bar"
+                                    style="height:43%;">
+                                </span>
+
+                                <small>Sen</small>
+
+                            </div>
+
+
+                            <!-- SELASA -->
+                            <div class="bar-group">
+
+                                <span
+                                    class="bar blue-bar"
+                                    style="height:79%;">
+                                </span>
+
+                                <span
+                                    class="bar orange-bar"
+                                    style="height:61%;">
+                                </span>
+
+                                <span
+                                    class="bar green-bar"
+                                    style="height:39%;">
+                                </span>
+
+                                <small>Sel</small>
+
+                            </div>
+
+
+                            <!-- RABU -->
+                            <div class="bar-group">
+
+                                <span
+                                    class="bar blue-bar"
+                                    style="height:75%;">
+                                </span>
+
+                                <span
+                                    class="bar orange-bar"
+                                    style="height:64%;">
+                                </span>
+
+                                <span
+                                    class="bar green-bar"
+                                    style="height:50%;">
+                                </span>
+
+                                <small>Rab</small>
+
+                            </div>
+
+
+                            <!-- KAMIS -->
+                            <div class="bar-group">
+
+                                <span
+                                    class="bar blue-bar"
+                                    style="height:86%;">
+                                </span>
+
+                                <span
+                                    class="bar orange-bar"
+                                    style="height:63%;">
+                                </span>
+
+                                <span
+                                    class="bar green-bar"
+                                    style="height:46%;">
+                                </span>
+
+                                <small>Kam</small>
+
+                            </div>
+
+
+                            <!-- JUMAT -->
+                            <div class="bar-group">
+
+                                <span
+                                    class="bar blue-bar"
+                                    style="height:82%;">
+                                </span>
+
+                                <span
+                                    class="bar orange-bar"
+                                    style="height:68%;">
+                                </span>
+
+                                <span
+                                    class="bar green-bar"
+                                    style="height:54%;">
+                                </span>
+
+                                <small>Jum</small>
+
+                            </div>
+
+
+                            <!-- SABTU -->
+                            <div class="bar-group">
+
+                                <span
+                                    class="bar blue-bar"
+                                    style="height:93%;">
+                                </span>
+
+                                <span
+                                    class="bar orange-bar"
+                                    style="height:71%;">
+                                </span>
+
+                                <span
+                                    class="bar green-bar"
+                                    style="height:49%;">
+                                </span>
+
+                                <small>Sab</small>
+
+                            </div>
+
+
+                            <!-- MINGGU -->
+                            <div class="bar-group">
+
+                                <span
+                                    class="bar blue-bar"
+                                    style="height:89%;">
+                                </span>
+
+                                <span
+                                    class="bar orange-bar"
+                                    style="height:70%;">
+                                </span>
+
+                                <span
+                                    class="bar green-bar"
+                                    style="height:51%;">
+                                </span>
+
+                                <small>Min</small>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- NOTIFIKASI -->
+            <article class="panel notification-panel">
+
+                <div class="panel-heading">
+
+                    <div>
+                        <span class="section-label">
+                            Pemberitahuan
+                        </span>
+
+                        <h3>
+                            Notifikasi Terbaru
+                        </h3>
+                    </div>
+
+                    <a href="#">
+                        Lihat semua
+                    </a>
+
+                </div>
+
+
+                <div class="notice-list">
+
+                    <div class="notice danger">
+
+                        <div class="notice-icon">
+                            !
+                        </div>
+
+                        <div>
+                            <strong>
+                                Stok Beras Menipis
+                            </strong>
+
+                            <p>
+                                Sisa stok 5 sak.
+                                Segera lakukan restock.
+                            </p>
+
+                            <time>
+                                10 menit lalu
+                            </time>
+                        </div>
+
+                    </div>
+
+
+                    <div class="notice success">
+
+                        <div class="notice-icon">
+                            ✓
+                        </div>
+
+                        <div>
+                            <strong>
+                                Permintaan Restock Diterima
+                            </strong>
+
+                            <p>
+                                Supplier Sumber Rezeki
+                                menerima permintaan.
+                            </p>
+
+                            <time>
+                                1 jam lalu
+                            </time>
+                        </div>
+
+                    </div>
+
+
+                    <div class="notice info">
+
+                        <div class="notice-icon">
+                            ↗
+                        </div>
+
+                        <div>
+                            <strong>
+                                Prediksi Diperbarui
+                            </strong>
+
+                            <p>
+                                Kebutuhan beras
+                                diprediksi 120 unit.
+                            </p>
+
+                            <time>
+                                2 jam lalu
+                            </time>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </section>
+
+
+        <!-- TABEL DAN REKOMENDASI -->
+        <section class="bottom-grid">
+
+            <!-- TABEL STOK -->
+            <article class="panel table-panel">
+
+                <div class="panel-heading">
+
+                    <div>
+                        <span class="section-label">
+                            Monitoring
+                        </span>
+
+                        <h3>
+                            Barang Stok Menipis
+                        </h3>
+                    </div>
+
+                    <a href="#">
+                        Kelola Barang →
+                    </a>
+
+                </div>
+
+
+                <div class="table-wrap">
+
+                    <table>
+
+                        <thead>
+
+                            <tr>
+                                <th>Barang</th>
+                                <th>Stok</th>
+                                <th>Minimum</th>
+                                <th>Status</th>
+                            </tr>
+
+                        </thead>
+
+
+                        <tbody>
+
+                            <tr>
+
+                                <td>
+                                    <span class="product">
+                                        Beras 5 kg
+                                    </span>
+                                </td>
+
+                                <td>
+                                    5 sak
+                                </td>
+
+                                <td>
+                                    10 sak
+                                </td>
+
+                                <td>
+                                    <span class="status danger-status">
+                                        Perlu Restock
+                                    </span>
+                                </td>
+
+                            </tr>
+
+
+                            <tr>
+
+                                <td>
+                                    <span class="product">
+                                        Minyak Goreng 1 L
+                                    </span>
+                                </td>
+
+                                <td>
+                                    8 botol
+                                </td>
+
+                                <td>
+                                    15 botol
+                                </td>
+
+                                <td>
+                                    <span class="status danger-status">
+                                        Perlu Restock
+                                    </span>
+                                </td>
+
+                            </tr>
+
+
+                            <tr>
+
+                                <td>
+                                    <span class="product">
+                                        Gula Pasir 1 kg
+                                    </span>
+                                </td>
+
+                                <td>
+                                    12 kg
+                                </td>
+
+                                <td>
+                                    15 kg
+                                </td>
+
+                                <td>
+                                    <span class="status warning-status">
+                                        Segera
+                                    </span>
+                                </td>
+
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </article>
+
+
+            <!-- REKOMENDASI RESTOCK -->
+            <article class="panel restock-panel">
+
+                <div class="panel-heading">
+
+                    <div>
+                        <span class="section-label">
+                            Restock
+                        </span>
+
+                        <h3>
+                            Rekomendasi Restock
+                        </h3>
+                    </div>
+
+                </div>
+
+
+                <div class="restock-card">
+
+                    <div class="restock-top">
+
+                        <div class="mini-product blue-product">
+                            B
+                        </div>
+
+                        <div>
+                            <strong>
+                                Beras 5 kg
+                            </strong>
+
+                            <span>
+                                Stok saat ini: 5 sak
+                            </span>
+                        </div>
+
+                        <span class="priority">
+                            Prioritas
+                        </span>
+
+                    </div>
+
+
+                    <div class="restock-info">
+
+                        <div>
+                            <span>
+                                Prediksi kebutuhan
+                            </span>
+
+                            <strong>
+                                120 unit
+                            </strong>
+                        </div>
+
+
+                        <div>
+                            <span>
+                                Rekomendasi
+                            </span>
+
+                            <strong>
+                                115 unit
+                            </strong>
+                        </div>
+
+                    </div>
+
+
+                    <button class="primary-button">
+                        Ajukan Restock
+                    </button>
+
+                </div>
+
+
+                <div class="restock-card secondary">
+
+                    <div class="restock-top">
+
+                        <div class="mini-product orange-product">
+                            M
+                        </div>
+
+                        <div>
+                            <strong>
+                                Minyak Goreng 1 L
+                            </strong>
+
+                            <span>
+                                Stok saat ini: 8 botol
+                            </span>
+                        </div>
+
+                    </div>
+
+
+                    <button class="outline-button">
+                        Lihat Detail
+                    </button>
+
+                </div>
+
+            </article>
+
+        </section>
+
+
+        <!-- FOOTER -->
+        <footer>
+
+            <span>
+                © 2026 Sahabat UMKM
+            </span>
+
+            <span>
+                 Beranda Manajemebn Persediaan
+            </span>
+
+        </footer>
+
+    </main>
+
+</body>
+</html>
